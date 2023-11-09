@@ -117,6 +117,26 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        xAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAALkSURBVGhD7Zkx
+        S3JRGMcVBCUoJ3VtiUQQgwgiqUBIyMGPIPgVHAQdMgNLWtykwcGWcHAzJcrBwcHFqUEQQUQRl5ZcnDwv
+        x/v4eq/30XvNztu5vf7gv+jf5zy/umZcdeSXsRHinY0Q7/zfQsPhkFxdXZFIJEL6/T48yheqhYrFItHp
+        dJI8PT3Bs/ygSuj5+VkmMw1vKG60TIamUqlAkw+WChUKBVRCnE6nA20+WCik9JuhcTgc0OYHVEiNzOHh
+        IbT5Qiak5jJjEaPRSI6PjycfC+12G7ZZHYlQs9lED/uJbG1tkWw2C5upRyJ0cXGBDv/J6PV68v7+Dhsq
+        IxFyOp3oUB4SCoVgy+VIhGKxGDqMl5yfn8Omi5H9UbDZbOgwXuL1emFTHJkQxWq1osPEOT09Jel0msTj
+        8bVDLyePx4OegyWZTMKmclAhihqpWq0G7e/j9fWV7OzsoOeJ8/HxAa+QslCIokaKFeFwGD1vmt3dXWhK
+        UdxISerl5QWa308mk0HPnKZer0Nzhqof8TKpVqsFLTYEAgH0XJqzszNozVB9zVgsFtlAu90Oz7Jl/lxx
+        5lnpTXB5efl3kM/ng0fZc3d3J5EQ5+3tDVoCKwn9FKPRCJWhiUaj0BLQhBAFk6Hx+/3QENCM0P7+Pip0
+        dHQEDQHNCLlcLlTo4OAAGgKaEVr00TH/D6vm30PBYBAaApoQqlarqAzNw8MDtAQ0IXRycoLK0AwGA2gJ
+        cC/UaDRQERqDwQCtGdwLYSLT3NzcQGsG10ImkwkVmQaDS6FSqYQKiHN7ewttKdwI0XvkqVSKmM1mVECc
+        7e1teJUc5kL0bii21DoZj8cwXQ5TIWyZdaN0m5iZULlcRhdaJ71eD6YvhpnQ4+MjutRXsre3B1OVYSb0
+        +fmJLrdq8vk8TFQH0/dQIpFAl1SK2+2efEf1FZgKUbrd7uSewPX1NXrXlOb+/p7kcrnJ1znrwlzoX7MR
+        4p2NEO/8MiFC/gAMnwoiJezIFAAAAABJRU5ErkJggg==
+</value>
+  </data>
   <data name="label2.Text" xml:space="preserve">
     <value>TC= Costo total de inventario
 

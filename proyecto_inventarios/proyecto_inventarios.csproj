@@ -59,6 +59,7 @@
     <Compile Include="Funciones\Result\FrmAyuda.Designer.cs">
       <DependentUpon>FrmAyuda.cs</DependentUpon>
     </Compile>
+    <Compile Include="Limpiar.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

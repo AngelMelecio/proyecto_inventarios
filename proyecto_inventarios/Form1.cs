@@ -46,5 +46,11 @@ namespace proyecto_inventarios
 
             resQ.Text = formulas.Q(D,k,n).ToString();
         }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            Limpiar limpiar = new Limpiar();
+            limpiar.BorrarCampos(this);
+        }
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -131,6 +132,7 @@
             this.btnLimpiar.TabIndex = 5;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // label3
             // 
@@ -298,12 +300,11 @@
             // 
             // lblAyuda
             // 
-            this.lblAyuda.AutoSize = true;
-            this.lblAyuda.Location = new System.Drawing.Point(411, 416);
+            this.lblAyuda.Image = ((System.Drawing.Image)(resources.GetObject("lblAyuda.Image")));
+            this.lblAyuda.Location = new System.Drawing.Point(553, 418);
             this.lblAyuda.Name = "lblAyuda";
-            this.lblAyuda.Size = new System.Drawing.Size(13, 13);
+            this.lblAyuda.Size = new System.Drawing.Size(73, 55);
             this.lblAyuda.TabIndex = 26;
-            this.lblAyuda.Text = "?";
             this.lblAyuda.Click += new System.EventHandler(this.label13_Click);
             // 
             // label14
