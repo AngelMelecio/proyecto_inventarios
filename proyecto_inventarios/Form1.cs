@@ -1,4 +1,5 @@
-﻿using System;
+﻿using proyecto_inventarios.Funciones.Result;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,11 @@ namespace proyecto_inventarios
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+            new FrmAyuda().ShowDialog();
         }
     }
 }
