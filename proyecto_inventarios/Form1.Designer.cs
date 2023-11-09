@@ -114,6 +114,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(164, 33);
             this.textBox1.TabIndex = 3;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // btnBorrar
             // 
@@ -423,6 +424,7 @@
             this.resQ.Name = "resQ";
             this.resQ.Size = new System.Drawing.Size(100, 20);
             this.resQ.TabIndex = 38;
+            this.resQ.TextChanged += new System.EventHandler(this.resQ_TextChanged);
             // 
             // resN
             // 
@@ -470,6 +472,7 @@
             this.btnOptenerN.TabIndex = 44;
             this.btnOptenerN.Text = "Obtener";
             this.btnOptenerN.UseVisualStyleBackColor = true;
+            this.btnOptenerN.Click += new System.EventHandler(this.btnOptenerN_Click);
             // 
             // btnObtenerT
             // 
@@ -479,6 +482,7 @@
             this.btnObtenerT.TabIndex = 45;
             this.btnObtenerT.Text = "Obtener";
             this.btnObtenerT.UseVisualStyleBackColor = true;
+            this.btnObtenerT.Click += new System.EventHandler(this.btnObtenerT_Click);
             // 
             // btnObtenerDmin
             // 
@@ -488,6 +492,7 @@
             this.btnObtenerDmin.TabIndex = 46;
             this.btnObtenerDmin.Text = "Obtener";
             this.btnObtenerDmin.UseVisualStyleBackColor = true;
+            this.btnObtenerDmin.Click += new System.EventHandler(this.btnObtenerDmin_Click);
             // 
             // btnObtenerR
             // 
@@ -497,6 +502,7 @@
             this.btnObtenerR.TabIndex = 47;
             this.btnObtenerR.Text = "Obtener";
             this.btnObtenerR.UseVisualStyleBackColor = true;
+            this.btnObtenerR.Click += new System.EventHandler(this.btnObtenerR_Click);
             // 
             // Form1
             // 
@@ -577,6 +583,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox inpD;
+        private System.Windows.Forms.TextBox inpdia;
         private System.Windows.Forms.TextBox inpC;
         private System.Windows.Forms.TextBox inpK;
         private System.Windows.Forms.TextBox inpR;
@@ -607,6 +614,7 @@
         private System.Windows.Forms.Button btnObtenerT;
         private System.Windows.Forms.Button btnObtenerDmin;
         private System.Windows.Forms.Button btnObtenerR;
+
     }
 }
 

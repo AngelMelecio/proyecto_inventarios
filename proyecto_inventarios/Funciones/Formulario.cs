@@ -8,28 +8,43 @@ namespace proyecto_inventarios.Funciones
 {
     internal class Formulario
     {
-        
-        public double Q(double D, double K, double n)
+        // Numero de piezas a Ordenar 
+        public double Q(double D, double K, double h)
         {
-            return Math.Sqrt((2 * D * K) / n); 
+            return Math.Sqrt((2 * D * K) / h); 
         }
+
+        // Numero de Orden Por año 
         public double N(double D, double Q) 
         {
             return D / Q;
         }
+
+        // Tiempo entre Ordenes 
         public double T(double N)
         {
             return 365 / N;
         }
+
+        //Demanda por Día
         public double Dmin( double D)
         {
             return D / 365;
         }
-        public double R(double d, double L)
+
+       // Punto de Reorden
+            public double R(double dia, double L)
         {
-            return d * L;
+            return dia * L;
         }
+       // public double TC(double D, double C, double Q)
+
 
     }
 
 }
+
+
+
+
+
