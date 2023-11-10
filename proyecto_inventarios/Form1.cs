@@ -100,6 +100,7 @@ namespace proyecto_inventarios
             resR.Text = formulas.R(dia, L).ToString();
         }
 
+
         private void inpDmin_TextChanged(object sender, EventArgs e)
         {
 
