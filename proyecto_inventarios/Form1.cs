@@ -92,16 +92,35 @@ namespace proyecto_inventarios
         }
 
         private void btnObtenerR_Click(object sender, EventArgs e)
+
         {
-            double dia = Double.Parse(inpdia.Text);
+            
+            double dia = Double.Parse(inpDmin.Text);
             double L = Double.Parse(inpL.Text);
             resR.Text = formulas.R(dia, L).ToString();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void inpDmin_TextChanged(object sender, EventArgs e)
         {
 
         }
+
+        private void inpN_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        /**  private void btnObtenerTC_Click(object sender, EventArgs e)
+          {
+              double D = Double.Parse(inpD.Text);
+              double C = Double.Parse(inpC.Text);
+              double Q = Double.Parse(inpQ.Text);
+              double h = Double.Parse(inpH.Text);
+              resR.Text = formulas.R(D, C, Q, h).ToString();
+            
+          } */
+
+
     }
 
    

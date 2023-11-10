@@ -114,7 +114,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(164, 33);
             this.textBox1.TabIndex = 3;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // btnBorrar
             // 
@@ -291,6 +290,7 @@
             this.inpN.Name = "inpN";
             this.inpN.Size = new System.Drawing.Size(100, 20);
             this.inpN.TabIndex = 24;
+            this.inpN.TextChanged += new System.EventHandler(this.inpN_TextChanged);
             // 
             // inpDmin
             // 
@@ -298,6 +298,7 @@
             this.inpDmin.Name = "inpDmin";
             this.inpDmin.Size = new System.Drawing.Size(100, 20);
             this.inpDmin.TabIndex = 25;
+            this.inpDmin.TextChanged += new System.EventHandler(this.inpDmin_TextChanged);
             // 
             // lblAyuda
             // 
