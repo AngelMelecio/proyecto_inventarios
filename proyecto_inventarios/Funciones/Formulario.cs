@@ -8,6 +8,8 @@ namespace proyecto_inventarios.Funciones
 {
     internal class Formulario
     {
+        //Comentario: se agrego una variable para manejar los tiempos que se necesitan en las formulas de T y d
+        double diasXanio = 360;
         // Numero de piezas a Ordenar 
         public double Q(double D, double K, double h)
         {
@@ -23,13 +25,13 @@ namespace proyecto_inventarios.Funciones
         // Tiempo entre Ordenes 
         public double T(double N)
         {
-            return 365 / N;
+            return (diasXanio / N);
         }
 
         //Demanda por Día
         public double Dmin(double D)
         {
-            return D / 365;
+            return D / diasXanio;
         }
 
         // Punto de Reorden
@@ -38,9 +40,17 @@ namespace proyecto_inventarios.Funciones
             return dia * L;
         }
         // Costo Total de Inventario 
-        public double TC(double D, double Q, double h, double C, double K)
+        //Comentario: se tenia un error al recibir los datos como correspondian por lo que se tuvo que realizar un acomodo en base a 
+        //los datos que recibe de uno por uno , es decir se organizo para evitar problemas en el calculo: D,C,K,Q,h
+        public double TC(double D, double C, double K, double Q, double h)
         {
-            return (((D * C) + (D / Q * K) + (Q / 2) * h));
+            double opcion = (D * C);
+            double Prepara = (D / Q);
+            double PreparaT = (Prepara * K);
+            double Almacen = (Q / 2);
+            double CostoA = Almacen * h;
+            double CostoFinal = (opcion + PreparaT + CostoA);
+            return CostoFinal;
         }
     }
 }

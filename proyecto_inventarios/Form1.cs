@@ -1,13 +1,6 @@
 ﻿using proyecto_inventarios.Funciones;
 using proyecto_inventarios.Funciones.Result;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
  
 namespace proyecto_inventarios
@@ -229,6 +222,19 @@ namespace proyecto_inventarios
 
         }
 
+        //Comentario: Se ordenaron las variables para evitar un problema en el envio de los datos, porque al realizar la depuración se
+        //mostraron valores que no correspondian con el de los campos de texto solicitados
+        //Advertencia: no mover los valores que se envian ni las variables declaradas
+        private void btnTC_Click(object sender, EventArgs e)
+        {
+            double D = Double.Parse(inpD.Text);
+            double C = Double.Parse(inpC.Text);
+            double K = Double.Parse(inpK.Text);
+            double Q = Double.Parse(inpQ.Text);
+            double h = Double.Parse(inpH.Text);
+            txtMuestraTC.Text = formulas.TC(D, C, K, Q, h).ToString();
+        }
+
         /**  private void btnObtenerTC_Click(object sender, EventArgs e)
           {
               double D = Double.Parse(inpD.Text);
@@ -238,8 +244,6 @@ namespace proyecto_inventarios
               resR.Text = formulas.R(D, C, Q, h).ToString();
             
           } */
-
-
     }
 
    
